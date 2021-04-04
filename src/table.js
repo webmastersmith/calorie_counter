@@ -41,8 +41,8 @@ const tBodyRow = R.curry((dispatch, model) => {
 					td({ className: `pl-2 ${border}` }, calories),
 					td({ className: `${border} text-center` }, 
 						[
-							i({ className: `far fa-trash-alt mr-2 text-red-400 cursor-pointer`, onclick: () => dispatch(deleteMeal(id))}),
-							i({ className: `far fa-edit ml-2 text-blue-500 cursor-pointer`, onclick: () => dispatch(editMeal(id)) }),
+							i({ className: `icon-trash-2 mr-2 text-red-400 cursor-pointer`, onclick: () => dispatch(deleteMeal(id))}),
+							i({ className: `icon-edit ml-2 text-blue-500 cursor-pointer`, onclick: () => dispatch(editMeal(id)) }),
 						]),
 				])
 	})(model.meals)

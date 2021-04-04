@@ -11,7 +11,7 @@ module.exports = {
 		hot: true,
 		contentBase: "./src",
 		compress: true,
-		port: 9000,
+		port: 9500,
 		open: true,
 	},
 	module: {
